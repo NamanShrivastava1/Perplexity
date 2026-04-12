@@ -10,6 +10,5 @@ export const searchInternet = async ({ query }) => {
     searchDepth: "advanced",
   });
 
-  console.log("TOOL OUTPUT:", results);
   return JSON.stringify(results);
 };
